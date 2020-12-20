@@ -74,7 +74,7 @@ class ConfigManager:
         "disabled_current_thread_response": "We are not accepting any messages.",
         "disabled_current_thread_footer": "Please try again later...",
         "transfer_reactions": True,
-        "close_on_leave": False,
+        "close_on_leave": True,
         "close_on_leave_reason": "The recipient has left the server.",
         "alert_on_mention": False,
         "show_timestamp": True,
