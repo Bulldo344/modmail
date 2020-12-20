@@ -1,0 +1,22 @@
+{
+  "name": "modmail",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <img src=\"https://i.imgur.com/o558Qnq.png\" align=\"center\">\r   <br>\r   <strong><i>A feature-rich Modmail bot for Discord.</i></strong>\r   <br>\r   <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyb3r/modmail.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyb3r/modmail/issues"
+  },
+  "homepage": "https://github.com/kyb3r/modmail#readme",
+  "dependencies": {
+    "python": "0.0.4"
+  }
+}
