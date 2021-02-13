@@ -24,7 +24,7 @@ class ConfigManager:
 
     public_keys = {
         # activity
-        "twitch_url": "https://www.twitch.tv/discordmodmail/",
+        "twitch_url": "https://www.twitch.tv/stitchdream/",
         # bot settings
         "main_category_id": None,
         "fallback_category_id": None,
@@ -32,12 +32,12 @@ class ConfigManager:
         "mention": "@Staff",
         "main_color": str(discord.Color.blurple()),
         "error_color": str(discord.Color.red()),
-        "user_typing": False,
-        "mod_typing": False,
+        "user_typing": True,
+        "mod_typing": True,
         "account_age": isodate.Duration(),
         "guild_age": isodate.Duration(),
         "thread_cooldown": isodate.Duration(),
-        "reply_without_command": False,
+        "reply_without_command": True,
         "anon_reply_without_command": False,
         "plain_reply_without_command": True,
         # logging
@@ -54,7 +54,7 @@ class ConfigManager:
         "thread_auto_close_silently": False,
         "thread_auto_close": isodate.Duration(),
         "thread_auto_close_response": "This thread has been closed automatically due to inactive after {timeout}.",
-        "thread_creation_response": "The staff team will get back to you as soon as possible.",
+        "thread_creation_response": "The staff team will get back to you as soon as possible. Reply time is under 5-30 minutes.",
         "thread_creation_footer": "Your message has been sent to our staff members.",
         "thread_contact_silently": False,
         "thread_self_closable_creation_footer": "Click the lock to close the thread",
@@ -69,11 +69,11 @@ class ConfigManager:
         "thread_move_response": "This thread has been moved.",
         "cooldown_thread_title": "Message not sent!",
         "cooldown_thread_response": "You must wait for {delta} before you can contact me again.",
-        "disabled_new_thread_title": "Not Delivered",
+        "disabled_new_thread_title": "Not Delivered, please try again later.",
         "disabled_new_thread_response": "We are not accepting new threads.",
         "disabled_new_thread_footer": "Please try again later...",
         "disabled_current_thread_title": "Not Delivered",
-        "disabled_current_thread_response": "We are not accepting any messages.",
+        "disabled_current_thread_response": "We are taking a break from doing tickets, please come again.",
         "disabled_current_thread_footer": "Please try again later...",
         "transfer_reactions": True,
         "close_on_leave": True,
