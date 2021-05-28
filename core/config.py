@@ -94,9 +94,9 @@ class ConfigManager:
         "react_to_contact_message": None,
         "react_to_contact_emoji": "\u2705",
         # confirm thread creation
-        "confirm_thread_creation": False,
-        "confirm_thread_creation_title": "Confirm thread creation",
-        "confirm_thread_response": "React to confirm thread creation which will directly contact the moderators",
+        "confirm_thread_creation": True,
+        "confirm_thread_creation_title": "Please confirm if you want to open up a thread with our support staff.",
+        "confirm_thread_response": "Please confirm if you want to open up a direct thread with our support staff.",
         "confirm_thread_creation_accept": "\u2705",
         "confirm_thread_creation_deny": "\U0001F6AB",
         # regex
