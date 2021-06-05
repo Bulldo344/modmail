@@ -343,16 +343,13 @@ class Utility(commands.Cog):
 
         embed.add_field(
             name="Want Modmail in Your Server?",
-            value="Follow the installation guide on [GitHub](https://github.com/kyb3r/modmail/) "
-            "and join our [Discord server](https://discord.gg/F34cRU8)!",
+            value="join our [Discord server](https://discord.gg/7EFBFg3tCX)!",
             inline=False,
         )
 
         embed.add_field(
             name="Support the Developers",
-            value="This bot is completely free for everyone. We rely on kind individuals "
-            "like you to support us on [`Patreon`](https://patreon.com/kyber) (perks included) "
-            "to keep this bot free forever!",
+            value="This bot is opened source by these people, Go check them out!",
             inline=False,
         )
 
